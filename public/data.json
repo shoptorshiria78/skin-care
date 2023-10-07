@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/zH8hr6Y/conference-seminer.jpg",
+      "title": "Conferences and Seminars",
+      "description": "At Corporate Amusement , we specialize in the seamless planning and execution of conferences and seminars that leave a lasting impact. Whether you're organizing a corporate conference, industry seminar, or educational workshop, our experienced team is here to ensure every detail is taken care of. Our team has a wealth of experience in managing conferences and seminars of all sizes and complexities. We understand the unique requirements of different types of events and industries.We work closely with you to tailor our services to your specific needs. Whether it's finding the perfect venue, coordinating speakers, or managing logistics, we personalize every aspect of your event. We have access to a wide network of venues suitable for conferences and seminars, ensuring you find the perfect location to host your event.",
+      "price": 15000,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/bvzTYwK/Corporate-meetings.jpg",
+      "title": "Corporate Meetings",
+      "description": "At Corporate Amusement, we specialize in creating productive and memorable corporate meetings that meet your company's goals and exceed your expectations. Whether you're planning a board meeting, executive retreat, team-building seminar, or annual conference, our expert team is here to ensure every detail is thoughtfully arranged.Our team has a wealth of experience in organizing corporate meetings of all sizes and complexities. We understand the unique requirements of corporate events and the importance of professionalism.We have a vast network of venues suitable for corporate meetings, ensuring you find the ideal location to host your event. Whether it's a boardroom, conference center, or a unique offsite location, we've got you covered.Our team can assist in developing a well-structured agenda that keeps your attendees engaged and on track to meet your meeting goals.",
+      "price": 5000,
+      "rating": 4.2
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/LkhjX4c/product-launch.jpg",
+      "title": "Product Launches",
+      "description": "At Corporate Amusement,we specialize in orchestrating unforgettable product launches that captivate your audience and make a lasting impression. Whether you're unveiling a new product, service, or innovation, our expert team is here to ensure every aspect of your launch is meticulously planned and executed.Our team has a wealth of experience in organizing product launches for a variety of industries. We understand the unique challenges and opportunities that come with introducing something new to the market. We collaborate closely with your team to create a launch event that aligns with your brand, message, and objectives. We recognize that each product is unique, and we tailor our services accordingly.We have an extensive network of venues suitable for product launches, ensuring you find the perfect setting to unveil your creation. From sleek urban spaces to grand ballrooms, we have options to suit your vision.",
+      "price": 6000,
+      "rating": 4.9
+      
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/jRFNp7Z/team-building-workshops.jpg",
+      "title": "Team Building Workshops",
+      "description": "At Corporate Amusement,we specialize in creating engaging and effective team-building workshops that bring teams together, boost morale, and enhance collaboration. Whether you're looking to strengthen your corporate team, improve communication, or foster leadership skills, our expert team is here to help you plan and execute a workshop that achieves your objectives.Our team has extensive experience in designing and facilitating team-building workshops for a wide range of organizations. We understand the dynamics of team dynamics and how to create meaningful experiences. We work closely with your organization to tailor the workshop to your specific goals and challenges. We recognize that every team is unique, and we craft our workshops accordingly.We design custom team-building activities, challenges, and exercises that align with your workshop's objectives and your team's needs.",
+      "price": 7000,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/3Wqt5QX/trade-expos.jpg",
+      "title": "Trade Shows and Expos",
+      "description": "At Corporate Amusement,we specialize in creating engaging and effective team-building workshops that bring teams together, boost morale, and enhance collaboration. Whether you're looking to strengthen your corporate team, improve communication, or foster leadership skills, our expert team is here to help you plan and execute a workshop that achieves your objectives. Our team has extensive experience in designing and facilitating team-building workshops for a wide range of organizations. We understand the dynamics of team dynamics and how to create meaningful experiences.We work closely with your organization to tailor the workshop to your specific goals and challenges. We recognize that every team is unique, and we craft our workshops accordingly. We offer a variety of venue options suitable for team-building workshops, both indoor and outdoor, to create the ideal setting for your event. Our skilled facilitators lead engaging activities and discussions that promote teamwork, problem-solving, and communication. We provide catering options to keep your participants energized and refreshed throughout the workshop.We gather feedback and assess the workshop's outcomes to provide you with valuable insights for future team-building efforts.",
+      "price": 10000,
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/bKjbHZ6/award-ceremonies.jpg",
+      "title": "Award Ceremonies",
+      "description": "At Corporate Amusement,we specialize in orchestrating prestigious and memorable award ceremonies that celebrate excellence, recognize achievements, and honor outstanding individuals or organizations. Whether you're planning a corporate awards night, an industry recognition ceremony, or a gala fundraiser, our dedicated team is here to ensure every detail is carefully curated for a remarkable event.Our team has extensive experience in organizing award ceremonies across various sectors and industries. We understand the significance and intricacies of such events.We collaborate closely with your organization to customize the award ceremony to your specific theme, brand, and objectives. Each award ceremony is unique, and we tailor our services accordingly.We offer a selection of venues suitable for award ceremonies, ensuring you find the perfect setting to host your event, whether it's an elegant ballroom, a historic theater, or a unique outdoor space.We can assist in designing and producing custom awards and trophies that reflect the prestige of your event. Create a memorable entrance for your honorees and guests with a red carpet, photography, and media coverage. We provide professional stage design and lighting to ensure the awards presentation is visually stunning and captivating.",
+      "price": 12000,
+      "rating": 4.3
+    }
+  ]

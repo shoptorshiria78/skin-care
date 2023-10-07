@@ -1,9 +1,12 @@
+import NavBar from "../../Shared/NavBar/NavBar";
+import Service from "../../Shared/Service/Service";
 
 
 const Home = () => {
     return (
         <div>
-             <h1 className="text-5xl text-center mt-32"> This is home</h1>
+             <NavBar></NavBar>
+             <Service></Service>
         </div>
     );
 };

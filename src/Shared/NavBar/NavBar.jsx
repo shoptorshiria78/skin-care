@@ -56,7 +56,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div>
-                    <div className="text-3xl font-bold text-[#E55473]">corporate</div>
+                    <div className="text-3xl font-bold text-[#E55473]">Corporate</div>
                     <div className="text-xl "><span className="text-2xl font-bold ">A</span>musement</div>
                 </div>
             </div>
@@ -70,8 +70,7 @@ const NavBar = () => {
             </div>
             <div className="navbar-end">
                 <Link to='/login'
-                 className=" bg-[#E55473] text-white px-4 py-1 rounded">Log In</Link
-                >
+                 className=" bg-[#E55473] text-white px-4 py-1 rounded">Log In </Link>
             </div>
         </div>
     );
