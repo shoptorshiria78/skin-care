@@ -33,7 +33,9 @@ const NavBar = () => {
                 color: isActive ? "red" : " black ",
             };
         }}>FAQ</NavLink >
-        <NavLink to='/blogs' style={({ isActive }) => {
+       {
+        user && <>
+         <NavLink to='/blogs' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
@@ -45,6 +47,8 @@ const NavBar = () => {
                 color: isActive ? "red" : " black ",
             };
         }}>My Order</NavLink >
+        </>
+       }
         <NavLink to='/contact' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",

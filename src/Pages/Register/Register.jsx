@@ -1,16 +1,18 @@
 import { Link, useNavigate } from "react-router-dom";
 import NavBar from "../../Shared/NavBar/NavBar";
 import { BsGithub, BsGoogle } from "react-icons/bs";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import swal from 'sweetalert'
 import { updateProfile } from "firebase/auth";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 const Register = () => {
 
     const { register, googleLogIn, gitHubLogIn  } = useContext(AuthContext);
     const navigate = useNavigate();
+    const [showPassword, setShowPassword] = useState(false);
 
     const handleRegister = e => {
         console.log('clicked')
@@ -88,15 +90,14 @@ const Register = () => {
                                 </label>
                                 <input  name='email' type="email" placeholder="email" className="input input-bordered bg-lime-100 " required />
                             </div>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Password</span>
-                                </label>
-                                <input  name='password' type="password" placeholder="password" className="input input-bordered  bg-lime-100 " required />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                </label>
-                            </div>
+                            <div className="relative">
+                                    <input name='password' type={showPassword ? 'text' : 'password'} placeholder="password" className="input input-bordered w-full bg-lime-100 " required />
+                                    <span className="absolute top-4 left-[310px] " onClick={() => setShowPassword(!showPassword)}>
+                                        {
+                                            showPassword ? <FaEyeSlash></FaEyeSlash> :
+                                                <FaEye></FaEye>
+                                        } </span>
+                                </div>
                             <div className="form-control mt-6">
                                 <button  className="w-full px-4 py-3 rounded-xl text-white bg-lime-400">Register</button>
                             </div>

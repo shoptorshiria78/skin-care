@@ -10,6 +10,7 @@ import Faq from "../Pages/FAQ/Faq";
 import Blogs from "../Pages/Blogs/Blogs";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import MyOrder from "../Pages/MyOrder/MyOrder";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 
 const Routes = createBrowserRouter([
@@ -45,17 +46,17 @@ const Routes = createBrowserRouter([
             },
             {
                 path:'/blogs',
-                element:<Blogs></Blogs>
+                element:<PrivateRoute><Blogs></Blogs></PrivateRoute>
 
             },
             {
                 path:'/services/:id',
-                element:<ServiceDetails></ServiceDetails>,
+                element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
                 loader:()=>fetch('./data.json')
             },
             {
                 path:'/myOrder',
-                element:<MyOrder></MyOrder>
+                element:<PrivateRoute><MyOrder></MyOrder></PrivateRoute>
             }
 
         ]

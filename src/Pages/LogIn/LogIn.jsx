@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import NavBar from "../../Shared/NavBar/NavBar";
 import { BsGithub, BsGoogle } from "react-icons/bs";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
@@ -12,6 +12,7 @@ const LogIn = () => {
     const { signIn } = useContext(AuthContext);
     const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
+    const location = useLocation();
 
 
     const handleLogin = e => {
@@ -24,7 +25,7 @@ const LogIn = () => {
                 console.log(result.user)
                 swal("Congratulation", "User logged in", "success")
                 e.target.reset()
-                navigate('/');
+                navigate(location?.state ? location.state :'/');
             })
             .catch(error => {
                 console.error(error)
@@ -52,8 +53,8 @@ const LogIn = () => {
                                     <span className="label-text">Password</span>
                                 </label>
                                 <div className="relative">
-                                    <input name='password' type={showPassword ? 'text' : 'password'} placeholder="password" className="input input-bordered  bg-lime-100 " required />
-                                    <span className="absolute top-4 left-52" onClick={() => setShowPassword(!showPassword)}>
+                                    <input name='password' type={showPassword ? 'text' : 'password'} placeholder="password" className="input input-bordered w-full bg-lime-100 " required />
+                                    <span className="absolute top-4 left-[310px] " onClick={() => setShowPassword(!showPassword)}>
                                         {
                                             showPassword ? <FaEyeSlash></FaEyeSlash> :
                                                 <FaEye></FaEye>
