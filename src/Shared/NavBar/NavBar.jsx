@@ -58,7 +58,7 @@ const NavBar = () => {
     </div>
 
     return (
-        <div className="navbar mt-5 sticky rounded-xl px-12 bg-[#E5547324] max-w-[450px] md:max-w-[750px] lg:max-w-[1100px] mx-auto">
+        <div className="navbar mt-5 text-r rounded-xl px-12 bg-[#efaab924] max-w-[450px] md:max-w-[750px] lg:max-w-[1100px] mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -72,7 +72,7 @@ const NavBar = () => {
                 </div>
                 <div>
                     <div className="text-3xl font-bold text-[#E55473]">Corporate</div>
-                    <div className="text-xl "><span className="text-2xl font-bold ">A</span>musement</div>
+                    <div className="text-xl text-red-400 "><span className="text-2xl font-bold text-red-500 ">A</span>musement</div>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
