@@ -1,40 +1,51 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 
 
 const NavBar = () => {
 
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch(error => {
+                console.error(error);
+            })
+    }
+
     const Nav = <div className=" space-x-3 text-base">
-        <NavLink to='/' style={({ isActive}) => {
+        <NavLink to='/' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
             };
         }}>Home</NavLink>
-        <NavLink to='/team' style={({ isActive}) => {
+        <NavLink to='/team' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
             };
         }}>Team</NavLink >
-        <NavLink to='/faq' style={({ isActive}) => {
+        <NavLink to='/faq' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
             };
         }}>FAQ</NavLink >
-        <NavLink to='/blogs' style={({ isActive}) => {
+        <NavLink to='/blogs' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
             };
         }}>Blogs</NavLink >
-        <NavLink to='/myOrder' style={({ isActive}) => {
+        <NavLink to='/myOrder' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
             };
         }}>My Order</NavLink >
-        <NavLink to='/contact' style={({ isActive}) => {
+        <NavLink to='/contact' style={({ isActive }) => {
             return {
                 fontWeight: isActive ? "bold" : "",
                 color: isActive ? "red" : " black ",
@@ -67,10 +78,23 @@ const NavBar = () => {
                     }
 
                 </ul>
-            </div>
+            </div >
             <div className="navbar-end">
-                <Link to='/login'
-                 className=" bg-[#E55473] text-white px-4 py-1 rounded">Log In </Link>
+                {
+                    user ?
+                        <div className="flex justify-between items-center">
+                            <div className="mr-2">
+                               <img className="w-12 h-12 rounded-full border-2 border-[#E55473]" src={user?.photoURL} alt="" />
+                                <p>{user?.displayName}</p>
+                            </div>
+                            <Link onClick={handleLogOut} to='/'
+                                className=" bg-[#E55473] text-white px-5 py-2 rounded">Sing Out </Link>
+                        </div>
+                        : <div >
+                            <Link to='/login'
+                                className=" bg-[#E55473] text-white px-5 py-2 rounded">Log In </Link>
+                        </div>
+                }
             </div>
         </div>
     );

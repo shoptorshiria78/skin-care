@@ -11,6 +11,7 @@ import Blogs from "../Pages/Blogs/Blogs";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import MyOrder from "../Pages/MyOrder/MyOrder";
 
+
 const Routes = createBrowserRouter([
     {
         path:'/',
@@ -25,6 +26,7 @@ const Routes = createBrowserRouter([
                 path:'/contact',
                 element:<ContactUs></ContactUs>
             },
+            
             { 
                 path:'/login',
                 element:<LogIn></LogIn>
