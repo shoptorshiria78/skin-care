@@ -38,15 +38,7 @@ const Faq = () => {
                         <p> Our team works closely with you to establish a realistic budget based on your event goals and requirements. We consider factors such as the number of attendees, event type, location, catering preferences, and any specific requests you have. Our aim is to provide a cost-effective solution that aligns with your vision.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow  bg-indigo-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-xl font-medium">
-                        Can you help with both small and large corporate events?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Yes, we have experience managing events of all sizes, from intimate team meetings to large-scale conferences and product launches. Our flexible approach allows us to tailor our services to the unique needs of your event, regardless of its scale.</p>
-                    </div>
-                </div>
+                
                </div>
 
                 <Footer></Footer>

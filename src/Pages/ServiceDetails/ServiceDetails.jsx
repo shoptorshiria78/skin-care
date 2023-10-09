@@ -15,7 +15,7 @@ const ServiceDetails = () => {
 
 
     useEffect(() => {
-        const findCard = cards.find(card => card.id === JSON.parse(params.id));
+        const findCard = cards?.find(card => card.id === JSON.parse(params.id));
         console.log(findCard);
         setCard(findCard);
     }, [cards, params])

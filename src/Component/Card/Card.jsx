@@ -4,12 +4,14 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Card = ({ card }) => {
+    
 
     const navigate = useNavigate();
     const {id,img,title,description,price,rating} = card;
 
     const handleDetails=()=>{
-        navigate(`/services/${id}`)
+        navigate(`./services/${id}`)
+        
     }
 
     return (
