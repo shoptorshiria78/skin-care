@@ -40,24 +40,24 @@ const LogIn = () => {
             <NavBar></NavBar>
             <div className="hero min-h-screen mt-10 mb-10 ">
                 <div >
-                    <div className=" w-[400px] bg-lime-100">
+                    <div className=" w-[400px] bg-gradient-to-r from-red-200 to-lime-100">
                         <form onSubmit={handleLogin} className="card-body ">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input name='email' type="email" placeholder="email" className="input input-bordered bg-lime-100 " required />
+                                <input name='email' type="email" placeholder="email" className="input input-bordered bg-violet-100 " required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
                                 <div className="relative">
-                                    <input name='password' type={showPassword ? 'text' : 'password'} placeholder="password" className="input input-bordered w-full bg-lime-100 " required />
+                                    <input name='password' type={showPassword ? 'text' : 'password'} placeholder="password" className="input input-bordered w-full bg-violet-100 " required />
                                     <span className="absolute top-4 left-[310px] " onClick={() => setShowPassword(!showPassword)}>
                                         {
-                                            showPassword ? <FaEyeSlash></FaEyeSlash> :
-                                                <FaEye></FaEye>
+                                            showPassword ?<FaEye></FaEye> : <FaEyeSlash></FaEyeSlash> 
+                                                
                                         } </span>
                                 </div>
                                 <label className="label">
@@ -65,16 +65,16 @@ const LogIn = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="w-full px-4 py-3 rounded-xl text-white bg-lime-400">Log In</button>
+                                <button className="w-full px-4 py-3 rounded-xl text-white bg-violet-400">Log In</button>
                             </div>
                         </form>
 
-                        <p className=" text-center py-8 mb-8">Do not have any Account ? <Link className="text-lime-600 underline" to='/register'>Register</Link></p>
+                        <p className=" text-center py-8 mb-8">Do not have any Account ? <Link className="text-violet-600 underline" to='/register'>Register</Link></p>
                     </div>
 
                     <div className="mx-auto my-10 flex flex-col  w-[400px]">
-                        <button className=" flex bg-lime-500 text-white items-center w-full p-2 rounded-full border-lime-600 border-2 "><BsGithub></BsGithub> <span className="ml-24"> Continue with github</span></button>
-                        <button className=" flex bg-lime-500 text-white items-center w-full p-2 mt-3 rounded-full border-lime-600 border-2 "><BsGoogle></BsGoogle> <span className="ml-24">Continue with google</span></button>
+                        <button className=" flex bg-violet-500 text-white items-center w-full p-2 rounded-full border-violet-600 border-2 "><BsGithub></BsGithub> <span className="ml-24"> Continue with github</span></button>
+                        <button className=" flex bg-violet-500 text-white items-center w-full p-2 mt-3 rounded-full border-violet-600 border-2 "><BsGoogle></BsGoogle> <span className="ml-24">Continue with google</span></button>
                     </div>
                 </div>
             </div>

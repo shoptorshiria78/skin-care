@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "title": "Successful Product Launch Seminar",
+      "description": "ABC Events excels in corporate event management, orchestrating a flawless product launch seminar for a tech giant. Their expert planning ensured a memorable event. Reporter: John Doe",
+      "img": "https://i.ibb.co/KFpFMH6/news-1.jpg",
+      "reporter": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Corporate Retreat: Boosting Team Spirit",
+      "description": "XYZ Inc. partnered with EventPros to organize a corporate retreat that enhanced team collaboration and motivation. It showcased EventPros' prowess in event management. Reporter: Jane Smith",
+      "img": "https://i.ibb.co/4JfLbYR/news-2-pic.jpg",
+      "reporter": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Innovative Trade Show Shines",
+      "description": "EventWizards delivered an outstanding trade show experience, demonstrating their expertise in corporate event management. Attendees were impressed by the innovative exhibits and seamless logistics. Reporter: David Johnson",
+      "img": "https://i.ibb.co/R408Y5c/news-3.jpg",
+      "reporter": "David Johnson"
+    },
+    {
+      "id": 4,
+      "title": "Gala Dinner Celebrates Business Milestone",
+      "description": "CorporateEventsCo organized a grand gala dinner to celebrate a major business milestone. Their attention to detail and flawless execution made it a memorable night. Reporter: Emily Clark",
+      "img": "https://i.ibb.co/yXxdD9D/news-4.jpg",
+      "reporter": "Emily Clark"
+    },
+    {
+      "id": 5,
+      "title": "Team Building Retreat Success",
+      "description": "EventMasters coordinated an exceptional team-building retreat that fostered strong bonds among employees. Their expertise in corporate event management was evident throughout. Reporter: Michael Brown",
+      "img": "https://i.ibb.co/xYFRTWC/news-5.jpg",
+      "reporter": "Michael Brown"
+    },
+    {
+      "id": 6,
+      "title": "Sustainable Conference Sets Example",
+      "description": "GreenEvents Inc. demonstrated their commitment to sustainability by organizing a successful eco-friendly corporate conference. Their event management skills left a lasting impression. Reporter: Sarah Adams",
+      "img": "https://i.ibb.co/pXv3PK2/news-6.jpg",
+      "reporter": "Sarah Adams"
+    },
+    {
+      "id": 7,
+      "title": "Tech Symposium Highlights Innovation",
+      "description": "EventTechPros showcased their expertise in corporate event management by orchestrating a tech symposium that highlighted innovation and industry trends. Reporter: Daniel Lee",
+      "img": "https://i.ibb.co/6ZPcQjr/news-7.jpg",
+      "reporter": "Daniel Lee"
+    },
+    {
+      "id": 8,
+      "title": "Client Appreciation Gala a Success",
+      "description": "CorporateGatheringsCo hosted a remarkable client appreciation gala, demonstrating their prowess in corporate event management. Clients were impressed by the memorable evening. Reporter: Olivia Green",
+      "img": "https://i.ibb.co/SNH9tqr/news-8.jpg",
+      "reporter": "Olivia Green"
+    }
+  ]
+  

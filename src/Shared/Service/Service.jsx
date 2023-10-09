@@ -19,7 +19,7 @@ const Service = () => {
                 <p className="text-blue-300 my-3">Unlock the Power of Exceptional Events Your Vision, <br/>
                 Our Expertise - Unleash Success!</p>
             </div>
-            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[450px] md:max-w-[750px] lg:max-w-[1100px] mx-auto mt-12 pb-12">
+            <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[400px] md:max-w-[750px] lg:max-w-[1100px] mx-auto mt-12 pb-12">
 
                 {
                     cards.map(card => <Card key={card.id} card={card}></Card>)

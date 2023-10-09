@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 
                 <div className="flex relative ml-5 ">
-                    <input className="border-2 px-2 w-[200px] h-8 py-1 rounded-l" type="text" /> <button className="text-white bg-cyan-600 absolute left-[200px] rounded-r w-20 border-cyan-600 h-8  py-1"> Search </button>
+                    <input className="border-2 px-2 w-[140px] md:w-[200px] h-8 py-1 rounded-l" type="text" /> <button className="text-white bg-cyan-600 absolute left-[140px] md:left-[200px] rounded-r w-16 md:w-20 border-cyan-600 h-8  py-1"> Search </button>
                 </div>
 
             </div>
