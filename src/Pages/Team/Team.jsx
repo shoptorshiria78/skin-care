@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Member from "../../Component/Card/Member/Member";
 import Footer from "../../Shared/Footer/Footer";
 import NavBar from "../../Shared/NavBar/NavBar";
@@ -36,6 +37,9 @@ const Team = () => {
    
     return (
        <div className="relative">
+        <Helmet>
+                <title>Corporate Amusement | Team page</title>
+            </Helmet>
          <div className=" bg-cover bg-no-repeat h-[450vh] md:h-[270vh] lg:h-[200vh] " style={{ backgroundImage: 'url(https://i.ibb.co/qsDn0pr/team-bg.jpg)' }}>
         <div className="hero-overlay bg-opacity-80"></div>
             

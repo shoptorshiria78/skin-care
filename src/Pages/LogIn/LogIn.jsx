@@ -5,6 +5,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import swal from 'sweetalert'
+import { Helmet } from "react-helmet-async";
 
 
 const LogIn = () => {
@@ -37,6 +38,9 @@ const LogIn = () => {
 
     return (
         <div className=" bg-[#e0de4c24] py-5">
+            <Helmet>
+                <title>Corporate Amusement | login page</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="hero min-h-screen mt-10 mb-10 ">
                 <div >

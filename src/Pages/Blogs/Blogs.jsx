@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Footer from "../../Shared/Footer/Footer";
 import NavBar from "../../Shared/NavBar/NavBar";
 import Blog from "../../Component/Blog/Blog";
+import { Helmet } from "react-helmet-async";
 
 
 const Blogs = () => {
@@ -17,6 +18,9 @@ const Blogs = () => {
 
     return (
         <div className="bg-gradient-to-r pt-10 from-purple-100">
+            <Helmet>
+                <title>Corporate Amusement | News & Blog</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="">
                 <div className="text-center">

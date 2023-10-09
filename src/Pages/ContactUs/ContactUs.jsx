@@ -6,10 +6,14 @@ import{TfiEmail} from 'react-icons/tfi'
 import{BsTelephoneFill} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
+import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
     return (
         <div className="max-w-[400px] md:max-w-[750px] lg:max-w-[1100px] mx-auto">
+            <Helmet>
+                <title>Corporate Amusement | Contact Us</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="my-12 w-full md:w-5/6 lg:w-5/6 mx-auto grid grid-cols-1 md:grid-cols-3 gap-2 ">
                 <div className=" col-span-2  rounded w-[400px] md:w-[400px] lg:w-[600px] bg-gradient-to-r from-red-200 to-cyan-100 ">

@@ -3,6 +3,7 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 import NavBar from "../../Shared/NavBar/NavBar";
 import swal from 'sweetalert'
 import Footer from "../../Shared/Footer/Footer";
+import { Helmet } from "react-helmet-async";
 
 const ServiceDetails = () => {
 
@@ -51,6 +52,9 @@ const ServiceDetails = () => {
     return (
 
         <div className="bg-[#ddf1e1] px-3 py-3 ">
+            <Helmet>
+                <title>Corporate Amusement | ServiceDetails page</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="max-w-[450px] md:max-w-[750px] lg:max-w-[1100px] mx-auto my-10 ">
                 

@@ -6,6 +6,7 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 import swal from 'sweetalert'
 import { updateProfile } from "firebase/auth";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 
 const Register = () => {
@@ -73,6 +74,9 @@ const Register = () => {
 
     return (
         <div className=" bg-[#e0de4c24] py-5">
+            <Helmet>
+                <title>Corporate Amusement | Register page</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="hero min-h-screen mt-10 mb-10 ">
                 <div >

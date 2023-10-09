@@ -9,6 +9,7 @@ import { TfiEmail } from 'react-icons/tfi'
 import { BsTelephoneFill } from 'react-icons/bs'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { AiFillLinkedin } from 'react-icons/ai'
+import { Helmet } from "react-helmet-async";
 
 const MyOrder = () => {
 
@@ -38,6 +39,9 @@ const MyOrder = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Corporate Amusement | MyOrder page</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="max-w-[1100px] mx-3 md:mx-4 lg:mx-auto mt-12 gap-2 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
                 <div className="col-span-1 md:col-span-2 lg:col-span-3 " >

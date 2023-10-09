@@ -6,6 +6,7 @@ import {
     AccordionBody,
 } from "@material-tailwind/react";
 import Footer from "../../Shared/Footer/Footer";
+import { Helmet } from "react-helmet-async";
 
 const Faq = () => {
 
@@ -15,6 +16,9 @@ const Faq = () => {
 
     return (
         <div className="bg-gradient-to-r from-blue-200 pt-10">
+            <Helmet>
+                <title>Corporate Amusement | FAQ</title>
+            </Helmet>
             <NavBar></NavBar>
 
             <div className="text-center">
