@@ -47,24 +47,6 @@ const Faq = () => {
                         <p>Yes, we have experience managing events of all sizes, from intimate team meetings to large-scale conferences and product launches. Our flexible approach allows us to tailor our services to the unique needs of your event, regardless of its scale.</p>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow  bg-indigo-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-xl font-medium">
-                        How do you handle unexpected issues or emergencies during an event?
-                    </div>
-                    <div className="collapse-content">
-                        <p> We have a dedicated team of experienced event managers who are skilled in problem-solving and crisis management. We also have contingency plans in place to address unforeseen issues. Our priority is to ensure that your event runs smoothly, and we will take swift action to resolve any challenges that may arise.</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-arrow  bg-indigo-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-xl font-medium">
-                        Can you provide references or examples of past corporate events you have managed?
-                    </div>
-                    <div className="collapse-content">
-                        <p>Absolutely, we can provide references and share case studies of past corporate events we have successfully managed. We believe in transparency and are proud of our track record of delivering exceptional events. Feel free to ask for specific examples that align with your event goals and vision.</p>
-                    </div>
-                </div>
                </div>
 
                 <Footer></Footer>

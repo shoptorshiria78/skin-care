@@ -1,8 +1,11 @@
-# React + Vite
+Website Name: Corporate Amusement
+live link:https://skin-care-b83af.web.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+5 features of my website:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. It is a Single Page Application.
+2. This website has an animation used in Home page.
+3. Firebase Authentication has been used  here. Private Route is also used here.
+AnyOne without login cannot access certain page. 
+4. The registration page of this website has email and password verification system.
+5. A Slider also added in the Home page of this website.
